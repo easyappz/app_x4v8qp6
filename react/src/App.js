@@ -8,6 +8,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Calculator />} />
+        <Route path="/calculator" element={<Calculator />} />
       </Routes>
     </Router>
   );
